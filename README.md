@@ -1,5 +1,4 @@
-# Acme-Product-Management-modified [![Build Status](https://github.com/angchoo/Acme-Product-Management-modified)](https://github.com/angchoo/Acme-Product-Management-modified)
-
+# Acme-Product-Management-modified 
 This is a modified demo project of Angular Line of Bussiness
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/angular-ui/ui-select?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
