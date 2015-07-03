@@ -1,0 +1,30 @@
+{
+  "name": "ACME Product Management",
+  "version": "1.0.0",
+  "description": "This is a test version",
+  "keywords": [
+    "ACME"
+  ],
+  "authors": [
+    "Alexander"
+  ],
+  "license": "n",
+  "homepage": "n",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-utils": "~0.2.3",
+    "angular-ui-router": "~0.2.15",
+    "angular-bootstrap": "~0.13.0",
+    "jquery": "~2.1.4",
+    "toastr": "~2.1.1",
+    "angular-chart": "~0.3.2",
+    "angular-chart.js": "~0.7.2",
+    "oclazyload": "~1.0.1"
+  }
+}

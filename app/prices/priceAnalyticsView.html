@@ -1,0 +1,57 @@
+<div class="content">
+    <div class="panel panel-primary">
+        <div class="panel-heading" style="font-size:large">{{title}}</div>
+
+        <div class="panel-body">
+
+            <div class="col-md-12">
+                <div ac-chart="'bar'"
+                     ac-data="dataAmount"
+                     ac-config="configAmount"
+                     class="chart"></div>
+
+            </div>
+
+            <div class="col-md-12">
+                <div ac-chart="'bar'"
+                     ac-data="dataPercent"
+                     ac-config="configPercent"
+                     class="chart"></div>
+            </div>
+
+            <div class="col-md-12">
+                <div ac-chart="'line'"
+                     ac-data="dataPercent"
+                     ac-config="configPercent"
+                     class="chart"></div>
+            </div>
+
+            <div class="col-md-12">
+                <div ac-chart="'area'"
+                     ac-data="dataPercent"
+                     ac-config="configPercent"
+                     class="chart"></div>
+            </div>
+
+            <canvas id="bar" class="chart chart-bar" data="data"
+                    labels="labels"></canvas>
+
+            <canvas id="doughnut" class="chart chart-doughnut" data="data2"
+                    labels="labels2"></canvas>
+
+            <div id="container"></div>
+            <div id="sliders">
+                <table>
+                    <tr><td>Alpha Angle</td><td><input id="R0" type="range" min="0" max="45" value="15"/> <span id="R0-value" class="value"></span></td></tr>
+                    <tr><td>Beta Angle</td><td><input id="R1" type="range" min="0" max="45" value="15"/> <span id="R1-value" class="value"></span></td></tr>
+                </table>
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
